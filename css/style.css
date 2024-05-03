@@ -20,6 +20,7 @@ h1{
 }
 p{
     font-size: 0.9em;
+    line-height: 20px;
 }
 .whiteround{
     background-color: white;
@@ -111,12 +112,18 @@ a{
     width: 70%;
     min-height: 800px;
     border: 2px dashed black;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    gap: 20px;
 }   
-h3{
+.midbox3>h2{
     background-image: url(../img/stars.svg);
+    padding: 20px 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-
 .smallbox1{
     width: 60%;
     height: 100%;
@@ -133,14 +140,12 @@ h3{
 }
 
 .smallbox2>h1{
-    padding: 25px;
+    padding: 25px 25px 0 25px;
 }
 .smallbox2>p{
     padding: 25px;
 }
-#padfixtitle{
-    padding-top: 10px;
-}
+
 .reverse{
     flex-direction: row-reverse;
 }
