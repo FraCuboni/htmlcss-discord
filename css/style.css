@@ -150,6 +150,12 @@ a{
     flex-direction: row-reverse;
 }
 
+.blueround{
+    background-color: #7289da;
+    color: white;
+    border-radius: 20px;
+}
+
 .bwhite{
 }
 .bgrey{
@@ -158,6 +164,7 @@ a{
 .bblue{
 
 }
+
 
 /* FOOTER */
 
