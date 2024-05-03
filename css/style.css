@@ -4,8 +4,7 @@
     text-decoration: none;
     font-size: 20px;
 }
-body{
-    background-color: #add8e6;
+body{;
 }
 /* HEADER */
 .containerhead{
@@ -19,7 +18,6 @@ body{
     display: flex;
     align-items: center;
     border: 2px dashed black;
-    background-color: #daa520;
  }
 .logo{
     justify-content: flex-start;
@@ -53,7 +51,6 @@ body{
 .midbox1{
     width: 50%;
     min-height: 300px;
-    background-color: #ee82ee;
     margin: 30px;
     border: 2px dashed black;
 }
@@ -68,12 +65,10 @@ body{
     width: 70%;
     min-height: 800px;
     margin: 30px;
-    background-color: #228b22;
     border: 2px dashed black;
 }   
 
 .smallbox1{
-    background-color: #1e90ff;
     width: 60%;
     height: 100%;
     border: 2px dashed black;
@@ -81,7 +76,6 @@ body{
 }
 
 .smallbox2{
-    background-color: #ffc0cb;
     width: 40%;
     height: 100%;
     border: 2px dashed black;
@@ -93,13 +87,10 @@ body{
 }
 
 .bwhite{
-    background-color: white;
 }
 .bgrey{
-    background-color: #d3d3d3;
 }
 .bblue{
-    background-color: #00008b;
 }
 
 /* FOOTER */
@@ -110,7 +101,6 @@ body{
     display: flex;
 }
 .smallbox3{
-    background-color: #f08080;
     width: 30%;
     height: 100%;
     border: 2px dashed black;
@@ -122,21 +112,19 @@ body{
     display: flex;
 }
 .smallerbox{
-    background-color: #20b2aa;
     width: calc(100% / 4);
-    border: 2px dashed white;
+    border: 2px dashed black;
     min-height: 500px;
 }
 
 .bdarkgrey{
-    background-color: #23272a;
 }
 .midbox5{
     width: 70%;
     min-height: 100px;
     margin: 5px 0 15px;
     display: flex;
-    background-color: #7fffd4;
+    border: 2px dashed black;
     display: flex;
     justify-content: space-between;
     align-items: center;
