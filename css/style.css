@@ -1,19 +1,41 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    text-decoration: none;
     font-size: 20px;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 body{;
 }
 /* HEADER */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+.whiteround{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+}
+.blackround{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
 .containerhead{
     width: 70%;
     height: 50px;
     margin: 30px;
     display: flex;
-    margin: 10px auto;
+    margin: auto auto 10px;
 }
  .containerhead>div{
     display: flex;
@@ -31,13 +53,17 @@ body{;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 13px;
 }
 
 .login{
     width: 25%;
     justify-content: flex-end;
     padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
 /* MAIN */
@@ -47,25 +73,23 @@ body{;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px;
 }
 
 .midbox1{
     width: 50%;
     min-height: 300px;
-    margin: 30px;
     border: 2px dashed black;
 }
 
 .midbox2{
     width: 70%;
-    margin: 30px;
     display: flex;
 }
 
 .midbox3{
     width: 70%;
     min-height: 800px;
-    margin: 30px;
     border: 2px dashed black;
 }   
 
@@ -92,6 +116,7 @@ body{;
 .bgrey{
 }
 .bblue{
+
 }
 
 /* FOOTER */
