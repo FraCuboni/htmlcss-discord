@@ -128,6 +128,12 @@ h3{
     min-height: 400px;
 }
 
+.smallbox2>h1{
+    padding-top: 25px;
+}
+#padfixtitle{
+    padding-top: 10px;
+}
 .reverse{
     flex-direction: row-reverse;
 }
@@ -147,12 +153,16 @@ h3{
     width: 70%;
     margin: 5px 0 15px;
     display: flex;
+    padding-top: 40px;
 }
 .smallbox3{
     width: 30%;
     height: 100%;
     border: 2px dashed black;
     min-height: 500px;
+}
+.smallbox3 :first-child{
+    color: #7289da;
 }
 .smallbox4{
     width: 70%;
@@ -169,11 +179,15 @@ ul{
     color: white;
 }
 ul :first-child{
-    color: blue;
+    color: #7289da;
 }
 
 .bdarkgrey{
     background-color: #23272a;
+    padding: 0;
+}
+h2{
+    font-size: xx-large;
 }
 .midbox5{
     width: 70%;
