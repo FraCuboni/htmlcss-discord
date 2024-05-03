@@ -17,7 +17,9 @@ header{
 }
 h1{
     font-size: 2em;
-    margin-bottom: 10px;
+}
+p{
+    font-size: 0.9em;
 }
 .whiteround{
     background-color: white;
@@ -40,7 +42,6 @@ h1{
  .containerhead>div{
     display: flex;
     align-items: center;
-    border: 2px dashed black;
  }
 .logo{
     justify-content: flex-start;
@@ -51,11 +52,11 @@ h1{
 .midbox1{
     width: 50%;
     min-height: 300px;
-    border: 2px dashed black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    gap: 30px;
+    padding: 0 10px;
 }
 
 .linkbox{
@@ -72,9 +73,11 @@ h1{
     padding: 10px;
 }
 .downloadb{
-
+    display: flex;
+    gap: 15px;
 }
 .jumbuttons{
+    padding: 1em;
 }
 a{
     text-decoration: none;
@@ -91,6 +94,7 @@ a{
     align-items: center;
     justify-content: center;
     padding: 50px;
+    margin: 50px 0;
 }
 
 .items{
@@ -129,7 +133,10 @@ h3{
 }
 
 .smallbox2>h1{
-    padding-top: 25px;
+    padding: 25px;
+}
+.smallbox2>p{
+    padding: 25px;
 }
 #padfixtitle{
     padding-top: 10px;
