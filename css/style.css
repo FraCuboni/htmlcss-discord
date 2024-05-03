@@ -170,11 +170,13 @@ a{
 .smallbox3{
     width: 30%;
     height: 100%;
-    border: 2px dashed black;
     min-height: 500px;
 }
 .smallbox3 :first-child{
     color: #7289da;
+}
+.smallbox3>img{
+    height: 0.9em;
 }
 .smallbox4{
     width: 70%;
@@ -225,5 +227,6 @@ h2{
  }
  .custom-icon{
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
+    margin-right: 10px;
   }
