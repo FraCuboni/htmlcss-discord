@@ -107,7 +107,11 @@ a{
     width: 70%;
     min-height: 800px;
     border: 2px dashed black;
+    text-align: center;
 }   
+h3{
+    background-image: url(../img/stars.svg);
+}
 
 .smallbox1{
     width: 60%;
@@ -159,6 +163,13 @@ a{
     width: calc(100% / 4);
     border: 2px dashed black;
     min-height: 500px;
+}
+ul{
+    list-style-type: none;
+    color: white;
+}
+ul :first-child{
+    color: blue;
 }
 
 .bdarkgrey{
